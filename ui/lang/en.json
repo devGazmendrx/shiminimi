@@ -1,5 +1,8 @@
 {
     "s-points": "S-Points",
     "hosted-events": "Hosted Events",
-    "participated-events": "Participated Events"
+    "participated-events": "Participated Events",
+    "create-event-text": "Create your event",
+    "sign-up-event-text": "Sign up",
+    "no-events-found-text": "Oops, nothing going on in your local area! Be the first one to create an event in your local area!"
 }
