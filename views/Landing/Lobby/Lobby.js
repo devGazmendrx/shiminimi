@@ -11,9 +11,8 @@ const Lobby = () => {
     
     return (    
         <Navigator tabBar={props => <BottomNavigationMenu {...props} />}>
+            <Screen name='User' component={UserProfile} />
             <Screen name='Play' component={PlayScreen} />
-            <Screen name='User' component={UserProfile}/>
-            <Screen name='MatchHistory' component={MatchHistory}/>
         </Navigator>
     )
 }

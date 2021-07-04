@@ -1,15 +1,15 @@
 import React from 'react'
 import { Layout, Text } from '@ui-kitten/components';
-import joinLobbyStyle from './joinLobbyStyle';
+import joinLobbyTabStyle from './joinLobbyTabStyle';
 import PlayIcon from '../../../../../ui/icons/PlayIcon';
 import { TouchableHighlight } from 'react-native'
 
 const JoinLobby = () => {
     return(
-        <TouchableHighlight onPress={() => {console.log(true)}} style={joinLobbyStyle.backgroundTinted}>
-            <Layout style={joinLobbyStyle.backgroundTinted}>
+        <TouchableHighlight onPress={() => {console.log(true)}} style={joinLobbyTabStyle.backgroundTinted}>
+            <Layout style={joinLobbyTabStyle.backgroundTinted}>
                 <PlayIcon width={35} height={35} fill={'white'}/>
-                <Text style={joinLobbyStyle.joinLobbyText}>Join a Lobby</Text>
+                <Text style={joinLobbyTabStyle.joinLobbyText}>Join a Lobby</Text>
             </Layout>
         </TouchableHighlight>
     )

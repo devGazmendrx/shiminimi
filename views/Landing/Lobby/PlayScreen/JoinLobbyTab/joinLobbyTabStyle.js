@@ -1,14 +1,14 @@
 import { StyleSheet } from 'react-native'
 
-const createLobbyStyle = StyleSheet.create({
+const joinLobbyTabStyle = StyleSheet.create({
     backgroundTinted:{
         flex:1,
-        backgroundColor: '#00b2cc',
+        backgroundColor: '#0081cb',
         alignSelf: 'stretch',
         justifyContent: 'center',
         alignItems: 'center',
     },
-    createLobbyText:{
+    joinLobbyText:{
         color: 'white',
         fontFamily: 'Prompt-Medium',
         fontSize: 20,
@@ -16,4 +16,4 @@ const createLobbyStyle = StyleSheet.create({
     },
   });
 
-export default createLobbyStyle
+export default joinLobbyTabStyle

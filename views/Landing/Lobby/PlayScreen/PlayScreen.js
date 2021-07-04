@@ -1,9 +1,10 @@
 import React from 'react'
 import { Layout, Text } from '@ui-kitten/components';
 import NextMatch from './NextMatch/NextMatch';
-import CreateLobby from './CreateLobby/CreateLobby';
+import CreateLobbyTab from './CreateLobbyTab/CreateLobbyTab';
 import playScreenStyle from './playScreenStyle';
-import JoinLobby from './JoinLobby/JoinLobby';
+import JoinLobbyTab from './JoinLobbyTab/JoinLobbyTab';
+import Profile from './Profile/Profile';
 
 
 const PlayScreen = ({ navigation }) => {
@@ -12,17 +13,17 @@ const PlayScreen = ({ navigation }) => {
         <Layout style={playScreenStyle.container}>
 
             <Layout style={playScreenStyle.layout} level='4'>
-                <NextMatch navigation={navigation} />
+                <Profile />
             </Layout>
         
     
-            <Layout style={playScreenStyle.layout} level='4'>
-                <CreateLobby />
+            {/* <Layout style={playScreenStyle.layout} level='4'>
+                <CreateLobbyTab navigation={navigation} />
             </Layout>
         
             <Layout style={playScreenStyle.layout} level='2'>
-                <JoinLobby />
-            </Layout>
+                <JoinLobbyTab />
+            </Layout> */}
         
       </Layout>
     )

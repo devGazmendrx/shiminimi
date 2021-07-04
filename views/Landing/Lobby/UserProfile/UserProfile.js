@@ -1,11 +1,15 @@
-import React from 'react'
-import { Text } from 'react-native'
+import React, { useState } from 'react'
+import { Layout, Text, Avatar } from '@ui-kitten/components';
+import styles from './userProfileStyle'
+import LoggedIn from './LoggedIn/LoggedIn';
+import LoggedOut from './LoggedOut/LoggedOut';
+
 
 const UserProfile = () => {
 
-    return(
-        <Text>I am user Profile.</Text>
-    )
+    const [currentUser, setCurrentUser] = useState([])
+
+    return (currentUser) ? <LoggedIn /> : <LoggedOut />
 }
 
 export default UserProfile

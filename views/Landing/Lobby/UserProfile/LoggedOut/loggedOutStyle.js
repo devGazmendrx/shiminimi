@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 
-const playScreenStyle = StyleSheet.create({
+export default StyleSheet.create({
     container: {
       flex: 1,
       flexDirection: 'column',
@@ -10,7 +10,4 @@ const playScreenStyle = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
     },
-
   });
-
-export default playScreenStyle
